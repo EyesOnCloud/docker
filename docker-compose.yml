@@ -13,7 +13,7 @@ services:
     networks:
       - samplenet
   db:
-    image: mongo:3.0.15
+    image: mongo:latest
     container_name: sample_db
     volumes:
       - ./db:/data/db
